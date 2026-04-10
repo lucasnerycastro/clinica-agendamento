@@ -2,25 +2,26 @@
 
 Projeto desenvolvido para a disciplina de Programação e Desenvolvimento Web.
 
-## Descrição
-Este sistema permite o agendamento de consultas em uma clínica de saúde, com escolha de especialidade, profissional, horário disponível, consulta por CPF e cancelamento de agendamento.
+## Descricao
+
+Este sistema permite o agendamento de consultas em uma clinica de saude, com escolha de especialidade, profissional, horario disponivel, consulta por CPF e cancelamento de agendamento.
 
 ## Tecnologias utilizadas
-- HTML
-- CSS
-- JavaScript
-- Node.js
-- Express
-- JSON
+
+* HTML
+* CSS
+* JavaScript
+* Node.js
+* Express
+* JSON
 
 ## Funcionalidades
-- Listagem de profissionais
-- Filtro por especialidade
-- Agendamento de consultas
-- Consulta de agendamento por CPF
-- Cancelamento de agendamento
 
-## Como executar o projeto
+* Listagem de profissionais
+* Filtro por especialidade
+* Agendamento de consultas
+* Consulta de agendamento por CPF
+* Cancelamento de agendamento
 
 ## Como executar o projeto
 
@@ -30,7 +31,7 @@ Este sistema permite o agendamento de consultas em uma clínica de saúde, com e
    cd backend
 ```
 
-2. Instalar as dependências
+2. Instalar as dependencias
 
 ```bash
    npm install
