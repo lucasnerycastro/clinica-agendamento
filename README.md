@@ -22,6 +22,24 @@ Este sistema permite o agendamento de consultas em uma clínica de saúde, com e
 
 ## Como executar o projeto
 
-### 1. Abrir o terminal na pasta backend
+## Como executar o projeto
+
+1. Abrir o terminal na pasta backend
+
 ```bash
-cd backend
+   cd backend
+```
+
+2. Instalar as dependências
+
+```bash
+   npm install
+```
+
+3. Executar o servidor
+
+```bash
+   node server.js
+```
+
+4. Abrir no navegador: [http://localhost:3000](http://localhost:3000)
