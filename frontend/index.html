@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clínica de Saúde - Agendamento</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+  <h1>Clínica Vida & Saúde</h1>
+  <p style="text-align: center; margin-bottom: 30px; color: #555;">
+  Sistema de agendamento de consultas e exames
+</p>
+    <section class="card">
+      <h2>Agendar Consulta</h2>
+
+      <label for="especialidade">Especialidade:</label>
+      <select id="especialidade">
+        <option value="">Selecione uma especialidade</option>
+      </select>
+
+      <label for="profissional">Profissional:</label>
+      <select id="profissional">
+        <option value="">Selecione um profissional</option>
+      </select>
+
+      <label for="dataHora">Horário disponível:</label>
+      <select id="dataHora">
+        <option value="">Selecione um horário</option>
+      </select>
+
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" placeholder="Digite seu nome">
+
+      <label for="cpf">CPF:</label>
+      <input type="text" id="cpf" placeholder="Digite seu CPF">
+
+      <button id="btnAgendar">Agendar</button>
+
+      <p id="mensagemAgendamento"></p>
+    </section>
+
+    <section class="card">
+      <h2>Consultar Agendamento por CPF</h2>
+
+      <label for="cpfConsulta">CPF:</label>
+      <input type="text" id="cpfConsulta" placeholder="Digite o CPF">
+
+      <button id="btnConsultar">Consultar</button>
+
+      <div id="resultadoConsulta"></div>
+    </section>
+
+    <section class="card">
+      <h2>Cancelar Agendamento</h2>
+
+      <label for="idCancelamento">ID do Agendamento:</label>
+      <input type="number" id="idCancelamento" placeholder="Digite o ID">
+
+      <button id="btnCancelar">Cancelar</button>
+
+      <p id="mensagemCancelamento"></p>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
