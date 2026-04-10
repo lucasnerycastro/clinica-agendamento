@@ -2,7 +2,7 @@
 
 Projeto desenvolvido para a disciplina de Programação e Desenvolvimento Web.
 
-## Descricao
+## Descrição
 
 Este sistema permite o agendamento de consultas em uma clinica de saude, com escolha de especialidade, profissional, horario disponivel, consulta por CPF e cancelamento de agendamento.
 
